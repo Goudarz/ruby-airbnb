@@ -1,13 +1,13 @@
-# Ruby Style Guide
+# راهنمای استایل روبی
 
-This is Airbnb's Ruby Style Guide.
+این راهنمای استایل روبی Airbnb می‌باشد.
 
-It was inspired by [GitHub's guide](https://web.archive.org/web/20160410033955/https://github.com/styleguide/ruby) and [Rubocop guide][rubocop-guide].
-
+این راهنمایی از [راهنمای گیت‌هاب](https://web.archive.org/web/20160410033955/https://github.com/styleguide/ruby) و [راهنمای روبو‌ماپ][rubocop-guide] الهام گرفته است.
+ 
 Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
 
-## Table of Contents
-  1. [Whitespace](#whitespace)
+## فهرست محتوا
+  1. [فضای خالی](#whitespace)
       1. [Indentation](#indentation)
       1. [Inline](#inline)
       1. [Newlines](#newlines)
@@ -74,13 +74,13 @@ Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
     the same line or one per line.<sup>[[link](#align-function-params)]</sup>
 
     ```ruby
-    # bad
+    # بد
     def self.create_translation(phrase_id, phrase_key, target_locale,
                                 value, user_id, do_xss_check, allow_verification)
       ...
     end
 
-    # good
+    # خوب
     def self.create_translation(phrase_id,
                                 phrase_key,
                                 target_locale,
@@ -91,7 +91,7 @@ Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
       ...
     end
 
-    # good
+    # خوب
     def self.create_translation(
       phrase_id,
       phrase_key,
@@ -109,14 +109,14 @@ Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
     boolean expressions.<sup>[[link](#indent-multi-line-bool)]</sup>
 
     ```ruby
-    # bad
+    # بد
     def is_eligible?(user)
       Trebuchet.current.launch?(ProgramEligibilityHelper::PROGRAM_TREBUCHET_FLAG) &&
       is_in_program?(user) &&
       program_not_expired
     end
 
-    # good
+    # خوب
     def is_eligible?(user)
       Trebuchet.current.launch?(ProgramEligibilityHelper::PROGRAM_TREBUCHET_FLAG) &&
         is_in_program?(user) &&
@@ -134,10 +134,10 @@ Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
     <sup>[[link](#space-before-comments)]</sup>
 
     ```ruby
-    # bad
+    # بد
     result = func(a, b)# we might want to change b to c
 
-    # good
+    # خوب
     result = func(a, b) # we might want to change b to c
     ```
 
@@ -165,10 +165,10 @@ Airbnb also maintains a [JavaScript Style Guide][airbnb-javascript].
     <sup>[[link](#spaces-block-params)]</sup>
 
     ```ruby
-    # bad
+    # بد
     {}.each { | x,  y |puts x }
 
-    # good
+    # خوب
     {}.each { |x, y| puts x }
     ```
 
