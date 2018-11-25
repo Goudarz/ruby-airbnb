@@ -1,3 +1,5 @@
+<div dir="rtl" lang="fa">
+
 # راهنمای استایل روبی
 
 این راهنمای استایل روبی Airbnb می‌باشد.
@@ -1753,3 +1755,5 @@ In either case:
   This style guide is also available in other languages:
 
   - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: [1c7/ruby-airbnb](https://github.com/1c7/ruby-airbnb)
+
+</div>
